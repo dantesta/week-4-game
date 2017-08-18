@@ -1,0 +1,27 @@
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+
+    .jumbotron {
+
+    	text-align: center;
+    }
+
+    .second {
+
+    	background-color: lightblue;
+
+
+    }
+
+#number-to-guess {
+
+	font-size: 42px;
+}
+
+#currentScore {
+
+	font-size: 30px;
+	
+}
