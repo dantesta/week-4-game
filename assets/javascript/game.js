@@ -7,8 +7,9 @@ var targetNumber = "";
   var gameOver = false;
 
 
-//  function newGame() {
-//    gameOver = false;
+//function newGame() {
+  
+ // gameOver = false;
 
 
 
@@ -51,9 +52,9 @@ var targetNumber = "";
 
 
 
-//  };
+ 
+// }
 
-//  newGame();
 
   
   $(".crystal-image").on("click", function() {
@@ -66,7 +67,14 @@ var targetNumber = "";
     counter += crystalValue;
 
 
+
+ // newGame();
+
+
    $("#currentScore").html("Your Total Score: " + counter);
+
+
+
  
 
     if (counter === targetNumber) {
@@ -100,9 +108,9 @@ var targetNumber = "";
 
   });
 
-//   $('.newGame').on('click', function(){ 
-//    newGame();
-//  });
+ // $('.newGame').on('click', function(){ 
+ //   newGame();
+ //  });
 
 
 });
